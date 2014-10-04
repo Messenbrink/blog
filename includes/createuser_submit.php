@@ -2,7 +2,7 @@
   error_reporting(E_ALL);
 
   session_start();
-  include 'includes/head.inc.php';
+  include 'includes/header.inc.php';
   $errors = array();
 
   if(!isset($_SESSION['form_token'])){
@@ -68,6 +68,6 @@
     echo 'A verification email has been sent to '.$blog_user_email;
   }
 
-  include 'includes/foot.inc.php';
+  include 'includes/footer.inc.php';
 
 ?>

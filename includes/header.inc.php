@@ -11,6 +11,7 @@
 <html>
 	<head>
 		<title>PHP Blogging system</title>
+		<link rel="stylesheet" href="stylesheets/reset.css">
 		<link rel="stylesheet" href="stylesheets/general.css">
 	</head>
 	<body>
